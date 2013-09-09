@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+	<ImageView
+		android:id="@+id/background"
+		android:layout_width="480px"
+		android:layout_height="270px"
+		android:layout_x="0px"
+		android:layout_y="0px"
+	>
+	</ImageView>
+	<ImageButton
+		android:id="@+id/back"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="190px"
+		android:layout_y="230px"
+	/>
+	<TextView 
+    android:id="@+id/helpfile" 
+    android:layout_width="260px" 
+    android:layout_height="165px" 
+    android:scrollbars="vertical"
+    android:singleLine="false"
+    android:maxLines="15"
+    android:layout_x="110px"
+    android:layout_y="68px"
+    android:textColor="#000000"
+    />
+</AbsoluteLayout>

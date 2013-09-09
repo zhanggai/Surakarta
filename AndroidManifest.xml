@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sulakart"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainFrame"
+                  android:label="@string/app_name">
+        <activity android:name=".GameInterface"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".HelpInterface"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".WinnerList"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".GameLevel"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".UserName"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".AIGame"
+        	android:label="@string/app_name"></activity>
+        <activity android:name=".List"
+        	android:label="@string/app_name"></activity>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameInterface"></activity>
+        <activity android:name=".HelpInterface"></activity>
+        <activity android:name=".WinnerList"></activity>
+        <activity android:name=".UserName"></activity>
+        <activity android:name=".AIGame"></activity>
+        <activity android:name=".GameLevel"></activity>
+        <activity android:name=".List"></activity>
+
+    </application>
+
+
+</manifest> 

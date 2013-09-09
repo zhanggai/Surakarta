@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"> 
+	<ImageView
+		android:id="@+id/background"
+		android:layout_width="480px"
+		android:layout_height="270px"
+		android:layout_x="0px"
+		android:layout_y="0px"
+	>
+	</ImageView>
+	<ImageButton
+		android:id="@+id/newgame"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="120px"
+		android:layout_y="100px"/>
+<!--	<ImageButton
+		android:id="@+id/guide"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="100px"
+		android:layout_y="130px"/>
+-->
+	<ImageButton
+		android:id="@+id/match"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="120px"
+		android:layout_y="170px"/>
+	<ImageButton
+		android:id="@+id/help"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="240px"
+		android:layout_y="85px"/>
+	<ImageButton
+		android:id="@+id/winner"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="240px"
+		android:layout_y="145px"/>
+	<ImageButton
+		android:id="@+id/exit"
+		android:layout_width="100px"
+		android:layout_height="40px"
+		android:layout_x="240px"
+		android:layout_y="205px"/>
+</AbsoluteLayout>
